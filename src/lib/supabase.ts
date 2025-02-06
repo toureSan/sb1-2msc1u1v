@@ -5,19 +5,19 @@ let supabaseClient: SupabaseClient | null = null
 
 export function initSupabase() {
   const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
-  const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY
+  const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY
 
-  if (!supabaseUrl || !supabaseKey) {
+  if (!supabaseUrl || !supabaseAnonKey) {
     console.error('Missing Supabase environment variables')
     return null
   }
 
   try {
-    supabaseClient = createClient(supabaseUrl, supabaseKey, {
+    supabaseClient = createClient(supabaseUrl, supabaseAnonKey, {
       auth: {
-        autoRefreshToken: true,
-        persistSession: true,
-        detectSessionInUrl: true
+        autoRefreshToken: false,   // Désactivation du rafraîchissement automatique des tokens
+        persistSession: false,     // Désactivation de la persistance des sessions
+        detectSessionInUrl: false  // Désactivation de la détection automatique des sessions dans l'URL
       },
       db: {
         schema: 'public'
