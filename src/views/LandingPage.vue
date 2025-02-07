@@ -9,12 +9,10 @@
         
         <!-- Contenu Hero -->
         <div class="absolute inset-0 flex items-center z-10">
-          <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12">
+          <div class="px-2 sm:px-8 lg:px-12">
             <div class="max-w-3xl space-y-8 sm:space-y-12">
-              <h1 class="text-4xl sm:text-6xl md:text-7xl font-bold text-white">
-                Le service à 360 degrés
-                <br />
-                à portée de main
+              <h1 class="text-5xl sm:text-6xl md:text-7xl font-bold text-white">
+                Des services à 360° degrés à portée de main !
               </h1>
               <p class="text-lg sm:text-xl md:text-2xl text-gray-200">
                 Trouvez des travailleurs de confiance pour tous vos besoins du quotidien. Des services à domicile aux services en extérieur en passant par les services de soutien émotionnel et de partage d'activités sans oublier vos animaux de compagnie. Faites appel à des prestataires aux profils vérifiés près de chez vous.

@@ -65,9 +65,7 @@ onMounted(() => {
             <p class="mt-4 text-lg text-blue-100">
               Nos experts vous répondent dans les 5 min par chat, dans la journée par email ou vous appellent si vous préférez échanger de vive voix.
             </p>
-            <p class="mt-2 text-blue-200">
-              Note 4.6/5 par nos membres.
-            </p>
+        
             <button
               @click="handleJoin"
               class="mt-8 inline-flex items-center px-6 py-3 border-2 border-white rounded-lg text-white hover:bg-white hover:text-blue-900 transition-colors text-lg font-medium"
