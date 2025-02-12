@@ -12,9 +12,9 @@ const sectionRef = ref(null)
 const services = ref([
   {
     id: '1',
-    title: 'Senior Care Specialist',
-    description: 'Professional elderly care with medical background',
-    category: 'Healthcare',
+    title: 'Spécialiste des soins à la personne ',
+    description: 'Soins professionnels aux personnes âgées avec formation médicale',
+    category: 'Soins à la personne',
     price: 25,
     provider: {
       name: 'Sarah Johnson',
@@ -24,9 +24,9 @@ const services = ref([
   },
   {
     id: '2',
-    title: 'Home Cleaning Pro',
-    description: 'Detailed home cleaning services',
-    category: 'Cleaning',
+    title: 'Professionnel du Nettoyage à Domicile',
+    description: 'Services de nettoyage à domicile détaillés',
+    category: 'Nettoyage',
     price: 22,
     provider: {
       name: 'Maria Garcia',
