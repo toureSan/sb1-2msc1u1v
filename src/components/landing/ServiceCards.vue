@@ -24,8 +24,8 @@ const services = ref([
   },
   {
     id: '2',
-    title: 'Professionnel du Nettoyage à Domicile',
-    description: 'Services de nettoyage à domicile détaillés',
+    title: 'Professionnel du nettoyage à domicile',
+    description: 'Services de nettoyage à domicile',
     category: 'Nettoyage',
     price: 22,
     provider: {
